@@ -1,0 +1,150 @@
+/* Эффекты для интерактивных элементов */
+.header-link:hover,
+.heder-link:active,
+.heder-link:focus {
+  color: var(--color-letter-blue);
+}
+/* Ссылки в шапке */
+.header-link {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--section-title-color);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-link-portfolio {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--color-letter-blue);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header-link-studio-portfolio {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--section-title-color);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-link-studio-portfolio:hover,
+.header-link-studio-portfolio:active,
+.header-link-studio-portfolio:focus {
+  color: var(--color-letter-blue);
+}
+.header-link-mail {
+  display: flex;
+  align-items: center;
+  color: var(--section-paragraf-color);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-link-mail:hover,
+.heder-link-mail:active,
+.heder-link-mail:focus {
+  color: var(--color-letter-blue);
+}
+.header-link-tel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--section-paragraf-color);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-link-tel:hover,
+.heder-link-tel:active,
+.heder-link-tel:focus {
+  color: var(--color-letter-blue);
+}
+/* Подсветка Ссылки Студия */
+.header-link-studio {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--color-letter-blue);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header-link-portfolio {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--color-letter-blue);
+}
+/* Фокус логотипа */
+.logo:focus {
+  color: var(--active-link-color);
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc (26 / 31);
+}
+/* Часть цвета логотипа */
+.color-logo-web {
+  color: var(--color-letter-blue);
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: cal (26 / 31);
+}
+.color-logo-studio {
+  color: var(--section-title-color);
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: cal (26 / 31);
+}

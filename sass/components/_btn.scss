@@ -1,0 +1,189 @@
+.section-btn-1 {
+  cursor: pointer;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06px;
+  color: var(--color-letter-white);
+  line-height: calc(30 / 16);
+  background: var(--color-letter-blue);
+  border-radius: 4px;
+  border: none;
+
+  min-width: 200px;
+  min-height: 50px;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.section-btn-1:hover,
+.section-btn-1:focus {
+  background-color: var(--active-link-color);
+}
+.btn-grey:hover,
+.btn-grey:focus {
+  background-color: var(--color-letter-blue);
+  color: var(--color-letter-white);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btn-blue {
+  cursor: pointer;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06px;
+  color: var(--color-letter-white);
+  line-height: calc(30 / 16);
+  background: var(--color-letter-blue);
+  border-radius: 4px;
+  border: none;
+
+  min-width: 73px;
+  min-height: 38px;
+
+  transition-property: background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-blue:hover,
+.btn-blue:focus {
+  background-color: var(--active-link-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.section-btn {
+  cursor: pointer;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06px;
+  color: var(--color-letter-white);
+  line-height: calc(30 / 16);
+  background: var(--color-letter-blue);
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 200px;
+
+  display: inline-block;
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.section-btn:hover,
+.section-btn:focus {
+  background-color: var(--active-link-color);
+}
+
+.btn-grey {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--section-title-color);
+  background: #f5f4fa;
+  min-width: 128px;
+  min-height: 38px;
+  border-radius: 4px;
+  border: none;
+
+  transition-property: background-color, color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.main-buttons {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.main-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.main-btn-item {
+  display: inline-block;
+  align-items: center;
+}
+.main-btn .main-btn-item:not(:last-child) {
+  margin-right: 8px;
+}
+.section-btn {
+  display: inline-block;
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+}
+.btn-send {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06px;
+  color: var(--color-letter-white);
+  line-height: calc(30 / 16);
+  background: var(--color-letter-blue);
+  border-radius: 4px;
+  border: none;
+  margin-top: 30px;
+
+  min-width: 200px;
+  min-height: 50px;
+
+  transition-property: background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-send:hover,
+.btn-send:focus {
+  background: var(--active-link-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.button-send {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-podpiska {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06px;
+  color: var(--color-letter-white);
+  line-height: calc(30 / 16);
+  background: var(--color-letter-blue);
+  border-radius: 4px;
+  border: none;
+  transform: translateX(185%);
+  padding: 0 62px 0 29px;
+
+  min-width: 200px;
+  min-height: 50px;
+
+  transition-property: background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-podpiska:hover {
+  background: var(--active-link-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.img-podpiska {
+  position: absolute;
+  top: auto;
+  right: 20px;
+  fill: #ffffff;
+}
