@@ -1,0 +1,36 @@
+.child-photo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-photo {
+  margin-right: 30px;
+  width: 370px;
+  .child-photo &:last-child {
+    margin-right: 0px;
+  }
+}
+
+.div-photo {
+  position: relative;
+}
+.prg-photo {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
+  padding-top: 27px;
+  text-align: center;
+  height: 70px;
+  width: 370px;
+  transform: translateY(0%);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

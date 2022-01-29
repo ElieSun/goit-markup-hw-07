@@ -1,6 +1,8 @@
+//-----------UTILS------------//
 @import "./utils/vars";
+//-----------BASE------------//
 @import "./base/reset";
-
+@import "./base/common";
 //-----------COMPONENTS------------//
 @import "./components/container";
 @import "./components/btn";
@@ -8,7 +10,15 @@
 @import "./components/container";
 @import "./components/container";
 @import "./components/container";
-
+@import "./components/modalka";
+//-----------LAYOUT------------//
 @import "./layout/header";
 @import "./layout/section-1";
-@import "./base/common";
+@import "./layout/section-2";
+@import "./layout/img-1";
+@import "./layout/section-our-team";
+@import "./layout/static-clients";
+@import "./layout/section-footer-left";
+@import "./layout/section-footer-right";
+@import "./layout/section-input-footer";
+@import "./layout/footer";

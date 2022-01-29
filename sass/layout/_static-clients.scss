@@ -1,0 +1,29 @@
+.static-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.static-clients-ul {
+  display: flex;
+  align-items: center;
+}
+.static-clients-list:last-child {
+  margin-right: 0px;
+}
+.companies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  margin-right: 30px;
+  fill: #afb1b8;
+
+  transition-property: border, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+  fill: #2196f3;
+  border-color: #2196f3;
+}

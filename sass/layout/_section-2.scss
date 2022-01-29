@@ -1,0 +1,35 @@
+.section-2 {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.action-list {
+  display: flex;
+  flex-wrap: wrap;
+  & .list:last-child {
+    margin-right: 0px;
+  }
+}
+.list {
+  margin-right: 30px;
+  width: 270px;
+}
+
+.svg-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.section-paragraf {
+  font-weight: normal;
+  color: var(--section-paragraf-color);
+  line-height: calc(24 / 14);
+  font-size: 14px;
+}
+.img-1 {
+  padding-bottom: 94px;
+}

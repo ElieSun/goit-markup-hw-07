@@ -1,0 +1,21 @@
+.section-input-footer {
+  margin-left: 93px;
+  position: relative;
+}
+.label-e-mail {
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc (16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.input-e-mail {
+  padding-left: 16px;
+  color: #ffffff;
+}

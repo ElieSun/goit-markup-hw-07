@@ -17,16 +17,10 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.section-btn-1:hover,
-.section-btn-1:focus {
-  background-color: var(--active-link-color);
-}
-.btn-grey:hover,
-.btn-grey:focus {
-  background-color: var(--color-letter-blue);
-  color: var(--color-letter-white);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  &:hover,
+  &:focus {
+    background-color: var(--active-link-color);
+  }
 }
 .btn-blue {
   cursor: pointer;
@@ -47,11 +41,11 @@
   transition-property: background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.btn-blue:hover,
-.btn-blue:focus {
-  background-color: var(--active-link-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  &:hover,
+  &:focus {
+    background-color: var(--active-link-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
 }
 .section-btn {
   cursor: pointer;
@@ -76,10 +70,10 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.section-btn:hover,
-.section-btn:focus {
-  background-color: var(--active-link-color);
+  &:hover,
+  &:focus {
+    background-color: var(--active-link-color);
+  }
 }
 
 .btn-grey {
@@ -100,6 +94,12 @@
   transition-property: background-color, color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--color-letter-blue);
+    color: var(--color-letter-white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
 }
 .main-buttons {
   padding-bottom: 94px;
@@ -144,12 +144,11 @@
   transition-property: background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.btn-send:hover,
-.btn-send:focus {
-  background: var(--active-link-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  &:hover,
+  &:focus {
+    background: var(--active-link-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
 }
 .button-send {
   display: flex;
@@ -176,10 +175,10 @@
   transition-property: background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.btn-podpiska:hover {
+  &:hover {
   background: var(--active-link-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 }
 .img-podpiska {
   position: absolute;

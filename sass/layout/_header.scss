@@ -1,9 +1,78 @@
-/* Эффекты для интерактивных элементов */
-.header-link:hover,
-.heder-link:active,
-.heder-link:focus {
-  color: var(--color-letter-blue);
+.categories-contact {
+  display: flex;
+  margin-left: auto;
 }
+.categories-list .categories-contact-tel:not(:last-child) {
+  margin-right: 0;
+}
+.categories-contact-mail {
+  margin-right: 50px;
+}
+.mail-svg {
+  margin-right: 10px;
+  fill: currentColor;
+  &:hover {
+    fill: #188ce8;
+  }
+}
+.tel-svg {
+  margin-right: 10px;
+  fill: currentColor;
+  &:hover {
+    fill: #188ce8;
+  }
+}
+
+/* -----------Голубая маленькая линия в хедере--------------- */
+.current-studio {
+  position: relative;
+  color: #2196f3;
+  &::after {
+    content: "";
+    width: 100%;
+    height: 5px;
+    border-radius: 2px;
+    position: absolute;
+    background-color: #2196f3;
+    left: 0px;
+    bottom: 0px;
+  }
+}
+.current-studio .current-portfolio {
+  position: relative;
+  color: #2196f3;
+}
+.current-portfolio::after {
+  content: "";
+  width: 100%;
+  height: 5px;
+  border-radius: 2px;
+  position: absolute;
+  background-color: #2196f3;
+  left: 0px;
+  bottom: 0px;
+}
+.categories-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: 93px;
+}
+.categories-list .item:not(:last-child) {
+  margin-right: 0;
+}
+.item {
+  margin-left: 50px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+/* Эффекты для интерактивных элементов */
 /* Ссылки в шапке */
 .header-link {
   font-family: var(--font-family);
@@ -20,6 +89,11 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--color-letter-blue);
+  }
 }
 
 .header-link-portfolio {
@@ -49,11 +123,11 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-link-studio-portfolio:hover,
-.header-link-studio-portfolio:active,
-.header-link-studio-portfolio:focus {
-  color: var(--color-letter-blue);
+  &:focus,
+  &:hover,
+  &:active {
+    color: var(--color-letter-blue);
+  }
 }
 .header-link-mail {
   display: flex;
@@ -71,12 +145,13 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus,
+  &:hover,
+  &:active {
+    color: var(--color-letter-blue);
+  }
 }
-.header-link-mail:hover,
-.heder-link-mail:active,
-.heder-link-mail:focus {
-  color: var(--color-letter-blue);
-}
+
 .header-link-tel {
   display: flex;
   align-items: center;
@@ -94,12 +169,13 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus,
+  &:hover,
+  &:active {
+    color: var(--color-letter-blue);
+  }
 }
-.header-link-tel:hover,
-.heder-link-tel:active,
-.heder-link-tel:focus {
-  color: var(--color-letter-blue);
-}
+
 /* Подсветка Ссылки Студия */
 .header-link-studio {
   font-family: var(--font-family);
