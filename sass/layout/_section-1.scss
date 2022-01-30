@@ -17,7 +17,7 @@
 }
 /* Заголовок h1 */
 .section-title-1 {
-   @include fonts(var(--font-family), normal, 900, 44px, calc(60 / 44), 0.06em);
+  @include fonts(var(--font-family), normal, 900, 44px, calc(60 / 44), 0.06em);
   text-align: center;
   text-transform: uppercase;
   color: var(--color-letter-white);
