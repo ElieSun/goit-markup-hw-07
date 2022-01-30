@@ -83,7 +83,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-btn-1:hover, .section-btn-1:focus {
+.section-btn-1:hover,
+.section-btn-1:focus {
   background-color: var(--active-link-color);
 }
 
@@ -106,7 +107,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-blue:hover, .btn-blue:focus {
+.btn-blue:hover,
+.btn-blue:focus {
   background-color: var(--active-link-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -134,7 +136,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-btn:hover, .section-btn:focus {
+.section-btn:hover,
+.section-btn:focus {
   background-color: var(--active-link-color);
 }
 
@@ -157,7 +160,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-grey:hover, .btn-grey:focus {
+.btn-grey:hover,
+.btn-grey:focus {
   background-color: var(--color-letter-blue);
   color: var(--color-letter-white);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -211,15 +215,13 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-send:hover, .btn-send:focus {
+.btn-send:hover,
+.btn-send:focus {
   background: var(--active-link-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .button-send {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .btn-podpiska {
@@ -441,9 +443,7 @@ img {
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @
   position: absolute;
   top: 8px;
   right: 8px;
@@ -477,8 +477,7 @@ img {
 }
 
 .label {
-  display: flex;
-  align-items: center;
+  @ex
 }
 
 .icon {
@@ -732,7 +731,9 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-link:hover, .header-link:focus, .header-link:active {
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
   color: var(--color-letter-blue);
 }
 
@@ -765,7 +766,9 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-link-studio-portfolio:focus, .header-link-studio-portfolio:hover, .header-link-studio-portfolio:active {
+.header-link-studio-portfolio:focus,
+.header-link-studio-portfolio:hover,
+.header-link-studio-portfolio:active {
   color: var(--color-letter-blue);
 }
 
@@ -786,7 +789,9 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-link-mail:focus, .header-link-mail:hover, .header-link-mail:active {
+.header-link-mail:focus,
+.header-link-mail:hover,
+.header-link-mail:active {
   color: var(--color-letter-blue);
 }
 
@@ -808,7 +813,9 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-link-tel:focus, .header-link-tel:hover, .header-link-tel:active {
+.header-link-tel:focus,
+.header-link-tel:hover,
+.header-link-tel:active {
   color: var(--color-letter-blue);
 }
 
@@ -880,7 +887,11 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--color-background);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-bg.jpg);
 }
 
 /* Заголовок h1 */

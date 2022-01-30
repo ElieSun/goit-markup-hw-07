@@ -3,16 +3,13 @@
   padding-bottom: 94px;
 }
 .static-clients-ul {
-  display: flex;
-  align-items: center;
+  @extend %flex-align;
 }
 .static-clients-list:last-child {
   margin-right: 0px;
 }
 .companies {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ @extend %align-list;
   width: 170px;
   height: 92px;
   border-radius: 4px;

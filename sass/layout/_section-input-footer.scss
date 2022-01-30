@@ -6,12 +6,7 @@
   display: flex;
   flex-wrap: wrap;
   color: #ffffff;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: calc (16 / 14);
-  letter-spacing: 0.03em;
+  @include fonts(Roboto, normal, bold, 14px, calc(16 / 14), 0.03em);
   text-transform: uppercase;
   margin-bottom: 20px;
 }

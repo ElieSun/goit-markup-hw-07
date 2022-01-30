@@ -15,9 +15,7 @@
 }
 
 .svg-icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %align-list;
   background-color: #f5f4fa;
   height: 120px;
   width: 270px;

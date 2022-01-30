@@ -32,16 +32,13 @@
   margin-top: 10px;
 }
 .network-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %align-list;
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: white;
   margin: auto;
   fill: #afb1b8;
-
   transition-property: fill, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -54,7 +51,6 @@
 .network-link .social-network:hover {
   fill: white;
   background-color: #188ce8;
-
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

@@ -1,0 +1,7 @@
+@mixin fonts($ff, $fst, $fw, $fs, $fh, $lh, $lsp);
+font-family: $ff;
+font-style: $fst;
+font-weight: $fw;
+font-size: $fs;
+line-height: $lh;
+letter-spacing: $lsp;

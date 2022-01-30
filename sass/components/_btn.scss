@@ -151,9 +151,7 @@
   }
 }
 .button-send {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %align-list;
 }
 .btn-podpiska {
   font-family: inherit;
@@ -176,9 +174,9 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover {
-  background: var(--active-link-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+    background: var(--active-link-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
 }
 .img-podpiska {
   position: absolute;
