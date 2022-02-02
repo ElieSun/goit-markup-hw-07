@@ -1,7 +1,6 @@
 //-----------UTILS------------//
 @import "./utils/variables";
 @import "./utils/placeholder";
-@import "./utils/mixin";
 //-----------BASE------------//
 @import "./base/reset";
 @import "./base/common";
@@ -24,3 +23,4 @@
 @import "./layout/section-footer-right";
 @import "./layout/section-input-footer";
 @import "./layout/footer";
+@import "./layout/portfolio";
