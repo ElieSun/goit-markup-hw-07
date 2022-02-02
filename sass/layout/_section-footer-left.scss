@@ -6,10 +6,20 @@
 }
 .color-logo-studio-address {
   color: var(--color-letter-white);
-   @include fonts("Raleway", sans-serif, normal, bold, 26px, calc(26 / 31));
+  font-family:"Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(26 / 31);
 }
 .address-link {
-  @include fonts(var(--font-family), normal, normal, 14px, calc(24 / 14), 0.03em);
+ 
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
   color: var(--color-letter-white);
   margin-bottom: 9px;
   transition-property: color;
@@ -26,7 +36,13 @@
   }
 }
 .address-link-mail {
-  @include fonts(inherit, normal, normal, 14px, calc(24 / 14), 0.03em);
+
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 9px;
   display: block;
@@ -45,7 +61,13 @@
   }
 }
 .address-link-maps {
-  @include fonts(inherit, normal, normal, 14px, calc(24 / 14), 0.03em);
+ 
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
   color: var(--color-letter-white);
   padding-bottom: 9px;
   transition-property: color;
@@ -62,7 +84,13 @@
   }
 }
 .address-link-tel {
-   @include fonts(inherit, normal, normal, 14px, calc(24 / 14), 0.03em);
+
+     font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   display: block;
   transition-property: color;

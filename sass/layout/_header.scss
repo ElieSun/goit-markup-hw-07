@@ -73,7 +73,10 @@
 /* Эффекты для интерактивных элементов */
 /* Ссылки в шапке */
 .header-link {
-  @include fonts(var(--font-family), normal, 500, 14px, calc(16 / 14), 0.02em);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--section-title-color);
@@ -92,14 +95,25 @@
 }
 
 .header-link-portfolio {
-  @include fonts(var(--font-family), normal, 700, 14px, calc(16 / 14), 0.02em);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
   color: var(--color-letter-blue);
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 .header-link-studio-portfolio {
-  @include fonts(var(--font-family), normal, 500, 14px, calc(16 / 14), 0.02em);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+
   color: var(--section-title-color);
   display: block;
   padding-top: 32px;
@@ -117,7 +131,12 @@
 .header-link-mail {
   @extend %flex-align;
   color: var(--section-paragraf-color);
-  @include fonts(var(--font-family), normal, 500, 14px, calc(16 / 14), 0.02em);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -134,7 +153,14 @@
 .header-link-tel {
   @extend %align-list;
   color: var(--section-paragraf-color);
-  @include fonts(var(--font-family), normal, 700, 14px, calc(16 / 14), 0.02em);
+
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -150,27 +176,53 @@
 
 /* Подсветка Ссылки Студия */
 .header-link-studio {
-  @include fonts(var(--font-family), normal, 700, 14px, calc(16 / 14), 0.02em);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
   color: var(--color-letter-blue);
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 .header-link-portfolio {
-  @include fonts(var(--font-family), normal, 700, 14px, calc(16 / 14), 0.02em);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+
   color: var(--color-letter-blue);
 }
 /* Фокус логотипа */
 .logo:focus {
   color: var(--active-link-color);
-  @include fonts(var(--font-family-header), normal, bold, 26px, calc(26 / 31));
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
 }
 /* Часть цвета логотипа */
 .color-logo-web {
   color: var(--color-letter-blue);
-  @include fonts(var(--font-family-header), normal, bold, 26px, calc(26 / 31));
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(26 / 31);
+  letter-spacing: 0.02em;
 }
 .color-logo-studio {
   color: var(--section-title-color);
-  @include fonts(var(--font-family-header), normal, bold, 26px, calc(26 / 31));
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(26 / 31);
+  letter-spacing: 0.02em;
 }

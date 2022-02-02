@@ -1,5 +1,9 @@
 .section-1 {
-  @include fonts(var(--font-family), normal, 900, calc(60 / 44), 0.06em);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 900;
+  line-height: calc(60 / 44);
+  letter-spacing: 0.06em;
   color: var(--color-letter-white);
   text-align: center;
   text-transform: uppercase;
@@ -17,7 +21,12 @@
 }
 /* Заголовок h1 */
 .section-title-1 {
-  @include fonts(var(--font-family), normal, 900, 44px, calc(60 / 44), 0.06em);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
   color: var(--color-letter-white);
