@@ -1,4 +1,4 @@
-.section-paragraf-portfolio {
+.masters-paragraf {
   font-weight: normal;
   color: var(--section-paragraf-color);
   line-height: calc(24 / 14);
@@ -25,12 +25,12 @@
 .categories-contact-mail {
   margin-right: 50px;
 }
-.masters-item-wrap {
+.masters {
   position: relative;
   overflow: hidden;
 }
 
-.masters-img-text {
+.masters__text {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -59,7 +59,7 @@
   border-right: 1px solid #ececec;
 }
 /* Студия Список абзацев*/
-.list-img {
+.posters {
   display: flex;
   flex-wrap: wrap;
   & .images:last-child {
@@ -89,7 +89,7 @@
 .categories-contact-mail {
   margin-right: 50px;
 }
-.section-paragraf-portfolio {
+.masters-paragraf {
   font-weight: normal;
   color: var(--section-paragraf-color);
   line-height: calc(24 / 14);
@@ -116,11 +116,11 @@
 .item {
   margin-left: 50px;
 }
-.masters-item-wrap {
+.masters {
   position: relative;
   overflow: hidden;
 }
-.masters-img-text {
+.masters__text {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -142,7 +142,7 @@
     transform: translateY(0);
   }
 }
-.im-link {
+.images__link {
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -176,12 +176,12 @@
     fill: #188ce8;
   }
 
-  .masters-item-wrap {
+  .masters {
     position: relative;
     overflow: hidden;
   }
 
-  .masters-img-text {
+  .masters__text {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -205,7 +205,7 @@
   }
 }
 /* Студия Список абзацев*/
-.list-img {
+.posters {
   display: flex;
   flex-wrap: wrap;
 }
@@ -226,15 +226,15 @@
   }
 }
 /* ----------Выплывающий текст над секцией---------- */
-.images:hover .masters-img-text {
+.images:hover .masters__text {
   transform: translateY(0);
 }
-.masters-item-wrap {
+.masters {
   position: relative;
   overflow: hidden;
 }
 
-.masters-img-text {
+.masters__text {
   position: absolute;
   top: 0px;
   left: 0px;

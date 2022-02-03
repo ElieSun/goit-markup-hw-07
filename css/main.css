@@ -279,7 +279,7 @@ img {
   margin-bottom: 50px;
 }
 
-.title-img {
+.masters__title {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 700;
@@ -1269,7 +1269,7 @@ img {
   align-items: baseline;
 }
 
-.section-paragraf-portfolio {
+.masters-paragraf {
   font-weight: normal;
   color: var(--section-paragraf-color);
   line-height: calc(24 / 14);
@@ -1300,12 +1300,12 @@ img {
   margin-right: 50px;
 }
 
-.masters-item-wrap {
+.masters {
   position: relative;
   overflow: hidden;
 }
 
-.masters-img-text {
+.masters__text {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -1323,7 +1323,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.images:hover .masters-img-text {
+.images:hover .masters__text {
   transform: translateY(0);
 }
 
@@ -1335,24 +1335,24 @@ img {
 }
 
 /* Студия Список абзацев*/
-.list-img {
+.posters {
   display: flex;
   flex-wrap: wrap;
 }
 
-.list-img .images:last-child {
+.posters .images:last-child {
   margin-right: 0px;
 }
 
-.list-img .images:nth-child(-n + 3) {
+.posters .images:nth-child(-n + 3) {
   margin-top: 0;
 }
 
-.list-img .images:nth-child(3n + 1) {
+.posters .images:nth-child(3n + 1) {
   margin-left: 0;
 }
 
-.list-img > .images {
+.posters > .images {
   background: #ffffff;
   flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
@@ -1373,7 +1373,7 @@ img {
   margin-right: 50px;
 }
 
-.section-paragraf-portfolio {
+.masters-paragraf {
   font-weight: normal;
   color: var(--section-paragraf-color);
   line-height: calc(24 / 14);
@@ -1403,12 +1403,12 @@ img {
   margin-left: 50px;
 }
 
-.masters-item-wrap {
+.masters {
   position: relative;
   overflow: hidden;
 }
 
-.masters-img-text {
+.masters__text {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -1427,17 +1427,17 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.images:hover .masters-img-text {
+.images:hover .masters__text {
   transform: translateY(0);
 }
 
-.im-link {
+.images__link {
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.im-link:focus, .im-link:hover {
+.images__link:focus, .images__link:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -1471,12 +1471,12 @@ img {
   fill: #188ce8;
 }
 
-.tel-svg .masters-item-wrap {
+.tel-svg .masters {
   position: relative;
   overflow: hidden;
 }
 
-.tel-svg .masters-img-text {
+.tel-svg .masters__text {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -1495,12 +1495,12 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.images:hover .tel-svg .masters-img-text {
+.images:hover .tel-svg .masters__text {
   transform: translateY(0);
 }
 
 /* Студия Список абзацев*/
-.list-img {
+.posters {
   display: flex;
   flex-wrap: wrap;
 }
@@ -1523,16 +1523,16 @@ img {
 }
 
 /* ----------Выплывающий текст над секцией---------- */
-.images:hover .masters-img-text {
+.images:hover .masters__text {
   transform: translateY(0);
 }
 
-.masters-item-wrap {
+.masters {
   position: relative;
   overflow: hidden;
 }
 
-.masters-img-text {
+.masters__text {
   position: absolute;
   top: 0px;
   left: 0px;
