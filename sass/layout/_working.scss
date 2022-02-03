@@ -1,19 +1,19 @@
-.child-photo {
+.working__list {
   display: flex;
   flex-wrap: wrap;
 }
-.list-photo {
+.working__list--photo {
   margin-right: 30px;
   width: 370px;
-  .child-photo &:last-child {
+  .working__list &:last-child {
     margin-right: 0px;
   }
 }
 
-.div-photo {
+.photo {
   position: relative;
 }
-.prg-photo {
+.photo__paragraf {
   position: absolute;
   bottom: 0px;
   left: 0px;

@@ -267,7 +267,7 @@ img {
   margin-bottom: 12px;
 }
 
-.section-title-2 {
+.working__title {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: bold;
@@ -925,25 +925,25 @@ img {
   padding-bottom: 94px;
 }
 
-.child-photo {
+.working__list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.list-photo {
+.working__list--photo {
   margin-right: 30px;
   width: 370px;
 }
 
-.child-photo .list-photo:last-child {
+.working__list .working__list--photo:last-child {
   margin-right: 0px;
 }
 
-.div-photo {
+.photo {
   position: relative;
 }
 
-.prg-photo {
+.photo__paragraf {
   position: absolute;
   bottom: 0px;
   left: 0px;
