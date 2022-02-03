@@ -1,8 +1,8 @@
-.section-2 {
+.activity {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.action-list {
+.activity__list {
   display: flex;
   flex-wrap: wrap;
   & .list:last-child {
@@ -14,7 +14,7 @@
   width: 270px;
 }
 
-.svg-icons {
+.section__icons {
   @extend %align-list;
   background-color: #f5f4fa;
   height: 120px;
@@ -22,7 +22,7 @@
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.section-paragraf {
+.section__icons--paragraf {
   font-weight: normal;
   color: var(--section-paragraf-color);
   line-height: calc(24 / 14);

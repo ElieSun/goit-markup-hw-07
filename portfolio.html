@@ -8,7 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="./css/styles.css">
+   
     <link rel="stylesheet" href="./css/main.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&amp;family=Roboto:wght@400;500;700;900&amp;display=swap"
@@ -21,31 +21,32 @@
 
     <!-- Основная шапка навигации -->
 <header class="header">
-    <div class="container">
-        <div class="header-nav">
-            <nav class="main-nav">
+    <div class="container header__navigation">
+        <nav class="header__navigation-main">
 
-                <a href="./index.html" class="logo"><span class="color-logo-web">Web</span>
-                    <span class="color-logo-studio">Studio</span></a>
+            <a href="./index.html" class="sait-logo"><span class="sait-logo__blue">Web</span>
+                <span class="sait-logo__black">Studio</span></a>
 
-                <ul class="categories-list">
-                    <li class="item-1"><a href="./index.html" class="header-link-studio-portfolio">Студия</a></li>
-                    <li class="item"><a href="./portfolio.html" class="header-link-portfolio current-portfolio">Портофолио</a>
+
+                <ul class="categories__navigation-main">
+                    <li class="header__navigation-item"><a href="./index.html" class="studio-portfolio">Студия</a></li>
+                    <li class="header__navigation-item"><a href="./portfolio.html" class="header-portfolio header-portfolio__link">Портофолио</a>
                     </li>
-                    <li class="item"><a href="" class="header-link">Контакты</a></li>
-                </ul>
-            </nav>
+                        <li class="header__navigation-item"><a href="" class="header__navigation-link">Контакты</a></li>
+                        </ul>
+                        </nav>
 
-            <ul class="categories-contact">
-                <li class="categories-contact-mail">
-                    <a href="mailto:info@devstudio.com" class="header-link-mail">
-                        <svg class="mail-svg" width="20" height="20">
+
+            <ul class="header__navigation-contact">
+                <li class="header__navigation-mail">
+                    <a href="mailto:info@devstudio.com" class="link-mail">
+                        <svg class="link-mail__icon" width="20" height="20">
                             <use href="./img/sprite.svg#icon-mail"></use>
                         </svg>
                         info@devstudio.com</a>
                 </li>
-                <li class="categories-contact-tel"><a href="tel:+380961111111" class="header-link-tel">
-                        <svg class="tel-svg" width="20" height="20">
+                <li class="header__navigation-tel"><a href="tel:+380961111111" class="link-tel">
+                        <svg class="link-tel__icon" width="20" height="20">
                             <use href="./img/sprite.svg#icon-phone"></use>
                         </svg>
                         +380961111111</a>
@@ -56,14 +57,14 @@
 </header>
     <!-- Секция с кнопками и сайтами -->
     <main>
-        <section class="main-buttons">
+        <section class="buttons">
             <div class="container">
-                <ul class="main-btn">
-                    <li class="main-btn-item"><button class="btn-blue">Все</button></li>
-                    <li class="main-btn-item"><button class="btn-grey">Веб сайты</button></li>
-                    <li class="main-btn-item"><button class="btn-grey">Приложение</button></li>
-                    <li class="main-btn-item"><button class="btn-grey">Дизайн</button></li>
-                    <li class="main-btn-item"><button class="btn-grey">Маркетинг</button></li>
+                <ul class="buttons__list">
+                    <li class="buttons__list--item"><button class="buttons__list--blue">Все</button></li>
+                    <li class="buttons__list--item"><button class="buttons__list--grey">Веб сайты</button></li>
+                    <li class="buttons__list--item"><button class="buttons__list--grey">Приложение</button></li>
+                    <li class="buttons__list--item"><button class="buttons__list--grey">Дизайн</button></li>
+                    <li class="buttons__list--item"><button class="buttons__list--grey">Маркетинг</button></li>
                 </ul>
             
             <!-- Секция с картинками  -->

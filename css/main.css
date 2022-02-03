@@ -14,12 +14,12 @@
   font-family: var(--font-family);
 }
 
-.label, .header-nav, .main-nav, .header-link-mail, .static-clients-ul {
+.label, .header__navigation, .header__navigation-main, .link-mail, .static-clients-ul {
   display: flex;
   align-items: center;
 }
 
-.button-send, .close-modal, .header-link-tel, .svg-icons, .network-link, .companies, .network-link-footer {
+.button-send, .close-modal, .link-tel, .section__icons, .network-link, .companies, .network-link-footer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,7 +75,7 @@ img {
   /* outline: 2px solid #bb0505; */
 }
 
-.section-btn-1 {
+.service__button {
   cursor: pointer;
   font-family: inherit;
   font-style: normal;
@@ -94,11 +94,11 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-btn-1:hover, .section-btn-1:focus {
+.service__button:hover, .service__button:focus {
   background-color: var(--active-link-color);
 }
 
-.btn-blue {
+.buttons__list--blue {
   cursor: pointer;
   font-family: inherit;
   font-style: normal;
@@ -117,7 +117,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-blue:hover, .btn-blue:focus {
+.buttons__list--blue:hover, .buttons__list--blue:focus {
   background-color: var(--active-link-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -149,7 +149,7 @@ img {
   background-color: var(--active-link-color);
 }
 
-.btn-grey {
+.buttons__list--grey {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
@@ -168,30 +168,30 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-grey:hover, .btn-grey:focus {
+.buttons__list--grey:hover, .buttons__list--grey:focus {
   background-color: var(--color-letter-blue);
   color: var(--color-letter-white);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.main-buttons {
+.buttons {
   padding-bottom: 94px;
   padding-top: 94px;
 }
 
-.main-btn {
+.buttons__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.main-btn-item {
+.buttons__list--item {
   display: inline-block;
   align-items: center;
 }
 
-.main-btn .main-btn-item:not(:last-child) {
+.buttons__list .buttons__list--item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -347,7 +347,7 @@ img {
   color: var(--section-title-color);
 }
 
-.title-1 {
+.section__icons--action {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: bold;
@@ -359,7 +359,7 @@ img {
   color: var(--section-title-color);
 }
 
-.title-2 {
+.section__icons--punctuality {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: bold;
@@ -371,7 +371,7 @@ img {
   color: var(--section-title-color);
 }
 
-.title-3 {
+.section__icons--planing {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: bold;
@@ -383,7 +383,7 @@ img {
   color: var(--section-title-color);
 }
 
-.title-4 {
+.section__icons--technologies {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: bold;
@@ -623,44 +623,44 @@ img {
   bottom: 0;
 }
 
-.categories-contact {
+.header__navigation-contact {
   display: flex;
   margin-left: auto;
 }
 
-.categories-list .categories-contact-tel:not(:last-child) {
+.categories__navigation-main .header__navigation-tel:not(:last-child) {
   margin-right: 0;
 }
 
-.categories-contact-mail {
+.header__navigation-mail {
   margin-right: 50px;
 }
 
-.mail-svg {
+.link-mail__icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.mail-svg:hover {
+.link-mail__icon:hover {
   fill: #188ce8;
 }
 
-.tel-svg {
+.link-tel__icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.tel-svg:hover {
+.link-tel__icon:hover {
   fill: #188ce8;
 }
 
 /* -----------Голубая маленькая линия в хедере--------------- */
-.current-studio {
+.header-studio__link {
   position: relative;
   color: #2196f3;
 }
 
-.current-studio::after {
+.header-studio__link::after {
   content: "";
   width: 100%;
   height: 5px;
@@ -671,12 +671,12 @@ img {
   bottom: 0px;
 }
 
-.current-studio .current-portfolio {
+.header-portfolio__link {
   position: relative;
   color: #2196f3;
 }
 
-.current-portfolio::after {
+.header-portfolio__link::after {
   content: "";
   width: 100%;
   height: 5px;
@@ -687,23 +687,23 @@ img {
   bottom: 0px;
 }
 
-.categories-list {
+.categories__navigation-main {
   display: flex;
   flex-wrap: wrap;
   margin-left: 93px;
 }
 
-.categories-list .item:not(:last-child) {
+.categories__navigation-main .header__navigation-item:not(:last-child) {
   margin-right: 0;
 }
 
-.item {
+.header__navigation-item {
   margin-left: 50px;
 }
 
 /* Эффекты для интерактивных элементов */
 /* Ссылки в шапке */
-.header-link {
+.header__navigation-link {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
@@ -719,11 +719,11 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-link:hover, .header-link:focus, .header-link:active {
+.header__navigation-link:hover, .header__navigation-link:focus, .header__navigation-link:active {
   color: var(--color-letter-blue);
 }
 
-.header-link-portfolio {
+.header-portfolio {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 700;
@@ -736,7 +736,7 @@ img {
   padding-bottom: 32px;
 }
 
-.header-link-studio-portfolio {
+.studio-portfolio {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
@@ -752,11 +752,11 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-link-studio-portfolio:focus, .header-link-studio-portfolio:hover, .header-link-studio-portfolio:active {
+.studio-portfolio:focus, .studio-portfolio:hover, .studio-portfolio:active {
   color: var(--color-letter-blue);
 }
 
-.header-link-mail {
+.link-mail {
   color: var(--section-paragraf-color);
   font-family: var(--font-family);
   font-style: normal;
@@ -771,11 +771,11 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-link-mail:focus, .header-link-mail:hover, .header-link-mail:active {
+.link-mail:focus, .link-mail:hover, .link-mail:active {
   color: var(--color-letter-blue);
 }
 
-.header-link-tel {
+.link-tel {
   color: var(--section-paragraf-color);
   font-family: var(--font-family);
   font-style: normal;
@@ -790,12 +790,12 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-link-tel:focus, .header-link-tel:hover, .header-link-tel:active {
+.link-tel:focus, .link-tel:hover, .link-tel:active {
   color: var(--color-letter-blue);
 }
 
 /* Подсветка Ссылки Студия */
-.header-link-studio {
+.header-studio {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 700;
@@ -808,7 +808,7 @@ img {
   padding-bottom: 32px;
 }
 
-.header-link-portfolio {
+.header-portfolio {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 700;
@@ -819,7 +819,7 @@ img {
 }
 
 /* Фокус логотипа */
-.logo:focus {
+.sait-logo:focus {
   color: var(--active-link-color);
   font-family: var(--font-family-header);
   font-style: normal;
@@ -830,7 +830,7 @@ img {
 }
 
 /* Часть цвета логотипа */
-.color-logo-web {
+.sait-logo__blue {
   color: var(--color-letter-blue);
   font-family: var(--font-family-header);
   font-style: normal;
@@ -840,7 +840,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-.color-logo-studio {
+.sait-logo__black {
   color: var(--section-title-color);
   font-family: var(--font-family-header);
   font-style: normal;
@@ -850,7 +850,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-.section-1 {
+.service {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 900;
@@ -869,7 +869,7 @@ img {
 }
 
 /* Заголовок h1 */
-.section-title-1 {
+.service__title {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 900;
@@ -887,17 +887,17 @@ img {
   padding-bottom: 94px;
 }
 
-.section-2 {
+.activity {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.action-list {
+.activity__list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.action-list .list:last-child {
+.activity__list .list:last-child {
   margin-right: 0px;
 }
 
@@ -906,7 +906,7 @@ img {
   width: 270px;
 }
 
-.svg-icons {
+.section__icons {
   background-color: #f5f4fa;
   height: 120px;
   width: 270px;
@@ -914,7 +914,7 @@ img {
   margin-bottom: 30px;
 }
 
-.section-paragraf {
+.section__icons--paragraf {
   font-weight: normal;
   color: var(--section-paragraf-color);
   line-height: calc(24 / 14);

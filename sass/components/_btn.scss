@@ -1,4 +1,4 @@
-.section-btn-1 {
+.service__button {
   cursor: pointer;
   font-family: inherit;
   font-style: normal;
@@ -22,7 +22,7 @@
     background-color: var(--active-link-color);
   }
 }
-.btn-blue {
+.buttons__list--blue {
   cursor: pointer;
   font-family: inherit;
   font-style: normal;
@@ -76,7 +76,7 @@
   }
 }
 
-.btn-grey {
+.buttons__list--grey {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
@@ -101,21 +101,21 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 }
-.main-buttons {
+.buttons {
   padding-bottom: 94px;
   padding-top: 94px;
 }
-.main-btn {
+.buttons__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 50px;
 }
-.main-btn-item {
+.buttons__list--item {
   display: inline-block;
   align-items: center;
 }
-.main-btn .main-btn-item:not(:last-child) {
+.buttons__list .buttons__list--item:not(:last-child) {
   margin-right: 8px;
 }
 .section-btn {

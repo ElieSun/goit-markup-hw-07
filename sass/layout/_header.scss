@@ -1,21 +1,21 @@
-.categories-contact {
+.header__navigation-contact {
   display: flex;
   margin-left: auto;
 }
-.categories-list .categories-contact-tel:not(:last-child) {
+.categories__navigation-main .header__navigation-tel:not(:last-child) {
   margin-right: 0;
 }
-.categories-contact-mail {
+.header__navigation-mail {
   margin-right: 50px;
 }
-.mail-svg {
+.link-mail__icon {
   margin-right: 10px;
   fill: currentColor;
   &:hover {
     fill: #188ce8;
   }
 }
-.tel-svg {
+.link-tel__icon {
   margin-right: 10px;
   fill: currentColor;
   &:hover {
@@ -24,7 +24,7 @@
 }
 
 /* -----------Голубая маленькая линия в хедере--------------- */
-.current-studio {
+.header-studio__link {
   position: relative;
   color: #2196f3;
   &::after {
@@ -38,11 +38,11 @@
     bottom: 0px;
   }
 }
-.current-studio .current-portfolio {
+.header-portfolio__link {
   position: relative;
   color: #2196f3;
 }
-.current-portfolio::after {
+.header-portfolio__link::after {
   content: "";
   width: 100%;
   height: 5px;
@@ -52,27 +52,27 @@
   left: 0px;
   bottom: 0px;
 }
-.categories-list {
+.categories__navigation-main {
   display: flex;
   flex-wrap: wrap;
 
   margin-left: 93px;
 }
-.categories-list .item:not(:last-child) {
+.categories__navigation-main .header__navigation-item:not(:last-child) {
   margin-right: 0;
 }
-.item {
+.header__navigation-item {
   margin-left: 50px;
 }
-.header-nav {
+.header__navigation {
   @extend %flex-align;
 }
-.main-nav {
+.header__navigation-main {
   @extend %flex-align;
 }
 /* Эффекты для интерактивных элементов */
 /* Ссылки в шапке */
-.header-link {
+.header__navigation-link {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
@@ -94,7 +94,7 @@
   }
 }
 
-.header-link-portfolio {
+.header-portfolio {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 700;
@@ -106,7 +106,7 @@
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.header-link-studio-portfolio {
+.studio-portfolio {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
@@ -128,7 +128,7 @@
     color: var(--color-letter-blue);
   }
 }
-.header-link-mail {
+.link-mail {
   @extend %flex-align;
   color: var(--section-paragraf-color);
   font-family: var(--font-family);
@@ -150,7 +150,7 @@
   }
 }
 
-.header-link-tel {
+.link-tel {
   @extend %align-list;
   color: var(--section-paragraf-color);
 
@@ -175,7 +175,7 @@
 }
 
 /* Подсветка Ссылки Студия */
-.header-link-studio {
+.header-studio {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 700;
@@ -187,7 +187,7 @@
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.header-link-portfolio {
+.header-portfolio {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 700;
@@ -198,7 +198,7 @@
   color: var(--color-letter-blue);
 }
 /* Фокус логотипа */
-.logo:focus {
+.sait-logo:focus {
   color: var(--active-link-color);
   font-family: var(--font-family-header);
   font-style: normal;
@@ -208,7 +208,7 @@
   letter-spacing: 0.02em;
 }
 /* Часть цвета логотипа */
-.color-logo-web {
+.sait-logo__blue {
   color: var(--color-letter-blue);
   font-family: var(--font-family-header);
   font-style: normal;
@@ -217,7 +217,7 @@
   line-height: calc(26 / 31);
   letter-spacing: 0.02em;
 }
-.color-logo-studio {
+.sait-logo__black {
   color: var(--section-title-color);
   font-family: var(--font-family-header);
   font-style: normal;
