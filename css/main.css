@@ -14,12 +14,12 @@
   font-family: var(--font-family);
 }
 
-.label, .header__navigation, .header__navigation-main, .link-mail, .static-clients-ul {
+.label, .header__navigation, .header__navigation-main, .link-mail, .clients__list {
   display: flex;
   align-items: center;
 }
 
-.button-send, .close-modal, .link-tel, .section__icons, .network__link, .companies, .network-link-footer {
+.button-send, .close-modal, .link-tel, .section__icons, .network__link, .companies__link, .network-link-footer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -313,7 +313,7 @@ img {
   margin-bottom: 10px;
 }
 
-.static-clients-title {
+.clients__title {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: bold;
@@ -1037,16 +1037,16 @@ img {
   margin-right: 0px;
 }
 
-.static-clients {
+.clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.static-clients-list:last-child {
+.companies:last-child {
   margin-right: 0px;
 }
 
-.companies {
+.companies__link {
   width: 170px;
   height: 92px;
   border-radius: 4px;
@@ -1058,9 +1058,13 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.companies:hover {
+.companies__link:hover {
   fill: #2196f3;
   border-color: #2196f3;
+}
+
+.svg-company {
+  fill: #afb1b8;
 }
 
 .section-footer-left {

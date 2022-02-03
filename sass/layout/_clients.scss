@@ -1,15 +1,15 @@
-.static-clients {
+.clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.static-clients-ul {
+.clients__list {
   @extend %flex-align;
 }
-.static-clients-list:last-child {
+.companies:last-child {
   margin-right: 0px;
 }
-.companies {
- @extend %align-list;
+.companies__link {
+  @extend %align-list;
   width: 170px;
   height: 92px;
   border-radius: 4px;
@@ -21,7 +21,10 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover {
-  fill: #2196f3;
-  border-color: #2196f3;
+    fill: #2196f3;
+    border-color: #2196f3;
+  }
 }
+.svg-company {
+  fill: #afb1b8;
 }
