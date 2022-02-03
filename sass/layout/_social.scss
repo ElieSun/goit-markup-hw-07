@@ -1,7 +1,7 @@
-.network-ul-list-1 {
+.social__list {
   display: flex;
 }
-.network-link-footer {
+.social__link {
   @extend %align-list;
   width: 44px;
   height: 44px;
@@ -15,6 +15,6 @@
     background-color: #188ce8;
   }
 }
-.social-network-footer {
+.social__link--logo {
   fill: white;
 }

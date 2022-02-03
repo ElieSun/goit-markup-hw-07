@@ -1,19 +1,18 @@
-.section-footer-left {
+.сontacts {
   margin-right: 70px;
 }
-.logo-address {
-  margin-bottom: 20px;
+.logo {
+  margin-bottom: 40px;
 }
-.color-logo-studio-address {
+.logo__white {
   color: var(--color-letter-white);
-  font-family:"Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: calc(26 / 31);
 }
-.address-link {
- 
+.сontacts__address {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: normal;
@@ -35,8 +34,7 @@
     color: var(--color-letter-white);
   }
 }
-.address-link-mail {
-
+.сontacts__mail {
   font-family: inherit;
   font-style: normal;
   font-weight: normal;
@@ -60,8 +58,7 @@
     color: var(--color-letter-white);
   }
 }
-.address-link-maps {
- 
+.сontacts__address {
   font-family: inherit;
   font-style: normal;
   font-weight: normal;
@@ -83,9 +80,8 @@
     color: var(--section-paragraf-color);
   }
 }
-.address-link-tel {
-
-     font-family: inherit;
+.сontacts__tel {
+  font-family: inherit;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -105,4 +101,13 @@
   &:focus {
     color: var(--color-letter-white);
   }
+}
+.logo__blue {
+  color: var(--color-letter-blue);
+  font-family: var(--font-family-header);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(26 / 31);
+  letter-spacing: 0.02em;
 }
