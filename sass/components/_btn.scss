@@ -125,7 +125,7 @@
   left: 495px;
   top: 174px;
 }
-.btn-send {
+.send__btn {
   font-family: inherit;
   font-style: normal;
   font-weight: 700;
@@ -150,10 +150,10 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 }
-.button-send {
+.send {
   @extend %align-list;
 }
-.btn-podpiska {
+.subscribe__btn {
   font-family: inherit;
   font-style: normal;
   font-weight: 700;

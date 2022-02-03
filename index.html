@@ -398,16 +398,16 @@
             </div>
 
             <!-- Форма подписки -->
-            <form action="#" class="section-input-footer">
-     <label class="label-e-mail" for="e-mail">ПОДПИШИТЕСЬ НА РАССЫЛКУ</label>
+            <form action="#" class="subscribe">
+     <label class="subscribe__mail" for="e-mail">ПОДПИШИТЕСЬ НА РАССЫЛКУ</label>
           <input 
          type="text"
-         class="input-e-mail"
+         class="subscribe__mail--input"
          name="e-mail"
          placeholder="E-mail" 
          required minlength="2"
          id="e-mail" />
-    <button type="submit" class="btn-podpiska">Подписаться
+    <button type="submit" class="subscribe__btn">Подписаться
         <svg class="img-podpiska" width="24" height="24">
             <use href="./img/sprite.svg#icon-icon-send-1"></use>
         </svg>
@@ -417,62 +417,62 @@
     </footer>
 
     <!-- Modalka -->
-    <button type="button" class="open-modal" data-modal-open></button>
+    <button type="button" class="modal__open" data-modal-open></button>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button data-modal-close class="close-modal">
-                <svg class="img-close-modal" width="11" height="11">
+            <button data-modal-close class="modal__close">
+                <svg class="modal__close--img" width="11" height="11">
                     <use href="./img/sprite.svg#icon-close-m-1"></use>
                 </svg>
             </button>
-            <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+            <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
             <form action="#">
 <form action="#">
-    <div class="form-field">
-        <label class="input-text" for="user-name">Имя</label>
-        <div class="input-wrap">
-        <input type="text" class="form-input" name="user-name" placeholder=" " required minlength="2"
+    <div class="form">
+        <label class="form__label" for="user-name">Имя</label>
+        <div class="wrap">
+        <input type="text" class="wrap__input" name="user-name" placeholder=" " required minlength="2"
             id="user-name" />
-            <svg class="icon-people" width="12" height="12">
+            <svg class="wrap__input--people" width="12" height="12">
                 <use href="./img/sprite.svg#icon-people"></use>
             </svg>
             </div>
     </div>
-    <div class="form-field">
-        <label class="input-text" for="user-tel">Телефон</label>
-        <div class="input-wrap">
-            <input type="tel" class="form-input" name="user-tel" placeholder=" " required title="+380 (96) 111-11-11"
+    <div class="form">
+        <label class="form__label" for="user-tel">Телефон</label>
+        <div class="wrap">
+            <input type="tel" class="wrap__input" name="user-tel" placeholder=" " required title="+380 (96) 111-11-11"
                 id="user-tel" />
-        <svg class="icon-trubka" width="13" height="13">
+        <svg class="wrap__input--tel" width="13" height="13">
             <use href="./img/sprite.svg#icon-trubka"></use>
         </svg>
         </div>
     </div>
-    <div class="form-field">
-        <label class="input-text" for="user-email">Почта</label>
-        <div class="input-wrap">
-        <input type="email" class="form-input" name="user-email" placeholder=" " id="user-email" />
-        <svg class="icon-konvert" width="15" height="12">
+    <div class="form">
+        <label class="form__label" for="user-email">Почта</label>
+        <div class="wrap">
+        <input type="email" class="wrap__input" name="user-email" placeholder=" " id="user-email" />
+        <svg class="wrap__input--mail" width="15" height="12">
             <use href="./img/sprite.svg#icon-konvert"></use>
         </svg>
         </div>
     </div>
-    <div class="form-field">
-        <label class="input-text" for="user-text">Комментарий</label>
-        <textarea name="user-text" id="user-text" class="form-text" placeholder="Введите текст"></textarea>
+    <div class="form">
+        <label class="form__label" for="user-text">Комментарий</label>
+        <textarea name="user-text" id="user-text" class="form__label--text" placeholder="Введите текст"></textarea>
     </div>
     <!-- Чекбокс -->
-    <div class="dogovir">
-        <label class="label">
-            <input class="checkbox" type="checkbox" name="dogovir" />
+    <div class="checkbox">
+        <label class="checkbox__label">
+            <input class="checkbox__input" type="checkbox" name="dogovir" />
             <span class="icon"></span>
             <span class="dogovir-label">Соглашаюсь с рассылкой и принимаю <a href="" class="link-dogovir">Условия
                     договора</a></span>
         </label>
         
     </div>
-    <div class="button-send">
-    <button type="submit" class="btn-send">Отправить</button>
+    <div class="send">
+    <button type="submit" class="send__btn">Отправить</button>
     </div>
             </form>
         </div>

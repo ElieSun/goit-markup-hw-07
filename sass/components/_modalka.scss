@@ -18,7 +18,7 @@
   padding: 40px;
 }
 
-.close-modal {
+.modal__close {
   width: 30px;
   height: 30px;
   background-color: #ffffff;
@@ -49,11 +49,11 @@
   margin-left: 20px;
 }
 /* --------------------Чекбокс----------------------- */
-.checkbox {
+.checkbox__input {
   appearance: none;
   position: absolute;
 }
-.label {
+.checkbox__label {
   @extend %flex-align;
 }
 .icon {
@@ -66,7 +66,7 @@
   border: 2px solid black;
   border-radius: 4px;
 }
-.checkbox:checked + .icon {
+.checkbox__input:checked + .icon {
   background-color: var(--color-letter-blue);
   background-image: url(../img/ch.svg);
   background-size: contain;
@@ -74,17 +74,17 @@
   border-color: var(--color-letter-blue);
 }
 /* ---------------Позиционирование иконок плейсхолдера------------- */
-.input-wrap {
+.wrap {
   position: relative;
 }
-.icon-people {
+.wrap__input--people {
   position: absolute;
   left: 15px;
   top: 50%;
   transform: translateY(-50%);
   fill: #000000;
 }
-.icon-trubka {
+.wrap__input--tel {
   position: absolute;
   left: 15px;
   top: 50%;
@@ -92,25 +92,25 @@
   color: #000000;
 }
 
-.icon-konvert {
+.wrap__input--mail {
   position: absolute;
   left: 15px;
   top: 50%;
   transform: translateY(-50%);
   color: #000000;
 }
-.form-input:focus + .icon-konvert {
+.wrap__input:focus + .wrap__input--mail {
   fill: #188ce8;
 }
 
-.input-text {
+.form__label {
   font-size: 12px;
   color: grey;
   display: block;
   margin-bottom: 5px;
 }
 
-.form-text {
+.form__label--text {
   width: 100%;
   height: 100px;
   border: 1px solid#999999;
@@ -129,7 +129,7 @@
   border-radius: 5px;
 }
 
-.dogovir {
+.checkbox {
   padding-left: 10px;
 }
 .link-dogovir {
@@ -144,7 +144,7 @@
   min-width: 200px;
 }
 
-.icon-people {
+.wrap__input--people {
   fill: black;
 }
 .section-input-footer {
@@ -162,10 +162,11 @@
   min-width: 358px;
   min-height: 50px;
 }
-.form-field {
+.form {
   margin-bottom: 10px;
 }
-.form-input {
+.wrap__input {
+  padding-left: 35px;
   width: 448px;
   height: 40px;
   border: 1px solid #999999;
@@ -175,10 +176,10 @@
   &:focus {
     border-color: #2196f3;
   }
-  &:focus + .icon-trubka {
+  &:focus + .wrap__input--tel {
     fill: #188ce8;
   }
-  &:focus + .icon-people {
+  &:focus + .wrap__input--people {
     fill: #188ce8;
   }
   &::placeholder {
