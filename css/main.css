@@ -19,7 +19,7 @@
   align-items: center;
 }
 
-.button-send, .close-modal, .link-tel, .section__icons, .network-link, .companies, .network-link-footer {
+.button-send, .close-modal, .link-tel, .section__icons, .network__link, .companies, .network-link-footer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -289,7 +289,7 @@ img {
   margin-bottom: 4px;
 }
 
-.section-title-3 {
+.team__title {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: bold;
@@ -301,7 +301,7 @@ img {
   margin-bottom: 50px;
 }
 
-.title-our-team {
+.name__title {
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
@@ -965,28 +965,28 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-our-team {
+.team {
   background-color: #f5f4fa;
   padding-bottom: 94px;
   padding-top: 94px;
 }
 
-.team {
+.team__list {
   display: flex;
 }
 
-.team .list-team:last-child {
+.team__list .team__list--photo:last-child {
   margin-right: 0px;
 }
 
-.list-team {
+.team__list--photo {
   margin-right: 30px;
   background: var(--color-letter-white);
   border-bottom: #212121;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.section-paragraf-1 {
+.name__paragraf {
   font-weight: normal;
   color: var(--section-paragraf-color);
   line-height: calc(24 / 14);
@@ -994,17 +994,17 @@ img {
   text-align: center;
 }
 
-.our-team-text {
+.name {
   padding: 30px 20px 30px 20px;
 }
 
-.network-ul-list {
+.network {
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
 
-.network-link {
+.network__link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -1016,12 +1016,12 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.network-link:hover {
+.network__link:hover {
   background-color: #188ce8;
   fill: white;
 }
 
-.network-link .social-network:hover {
+.network__link .network__link--svg:hover {
   fill: white;
   background-color: #188ce8;
   transition-property: transform;
@@ -1029,11 +1029,11 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.li-list {
+.network__list {
   margin-right: 10px;
 }
 
-.li-list:last-child {
+.network__list:last-child {
   margin-right: 0px;
 }
 
