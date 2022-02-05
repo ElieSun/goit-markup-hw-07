@@ -119,6 +119,7 @@
 .masters {
   position: relative;
   overflow: hidden;
+  margin-bottom: 30px;
 }
 .masters__text {
   position: absolute;
@@ -168,7 +169,12 @@
     fill: #188ce8;
   }
 }
-
+.masters__title {
+  padding-left: 24px;
+}
+.masters-paragraf {
+  padding-left: 24px;
+}
 .tel-svg {
   margin-right: 10px;
   fill: currentColor;
@@ -179,7 +185,6 @@
   .masters {
     position: relative;
     overflow: hidden;
-    padding-left: 24px;
   }
 
   .masters__text {
