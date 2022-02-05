@@ -1,9 +1,9 @@
 .social__list {
   display: flex;
-  padding-left: 10px;
 }
 .social__link {
   @extend %align-list;
+  margin-right: 10px;
   width: 44px;
   height: 44px;
   border-radius: 50%;
