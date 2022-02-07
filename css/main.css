@@ -1075,6 +1075,7 @@ img {
 
 .logo {
   margin-bottom: 20px;
+  display: block;
 }
 
 .logo__white {
@@ -1260,6 +1261,7 @@ img {
   border-radius: 4px;
   min-width: 358px;
   min-height: 50px;
+  color: #ffffff;
 }
 
 .footer {
@@ -1464,14 +1466,6 @@ img {
 
 .mail-svg:hover {
   fill: #188ce8;
-}
-
-.masters__title {
-  padding-left: 24px;
-}
-
-.masters-paragraf {
-  padding-left: 24px;
 }
 
 .tel-svg {
